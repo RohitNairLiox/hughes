@@ -6,6 +6,7 @@
 /* Toggle Styles */
 #sidebarText{visibility: hidden;}
 #desktopFooter{display:none;}
+#desktopPDF{display:none;}
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
@@ -129,6 +130,8 @@
     #sidebarText{visibility: visible;}
     #mobileFooter{display:none;}
     #desktopFooter{display:block;}
+    #mobilePDF{display:none;}
+    #desktopPDF{display:block;}
     #FooterReal{ width:80%; bottom:0px; position: fixed;}
 
 }
